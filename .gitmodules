@@ -1,0 +1,9 @@
+[submodule "iridius-demo-website"]
+	path = iridius-demo-website
+	url = git@github.com:Zvezdin/iridius-demo-website.git
+[submodule "iridius-the-graph"]
+	path = iridius-the-graph
+	url = git@github.com:Zvezdin/iridius-the-graph.git
+[submodule "iridius-demo-extension"]
+	path = iridius-demo-extension
+	url = git@github.com:Zvezdin/iridius-demo-extension.git
