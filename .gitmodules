@@ -7,3 +7,6 @@
 [submodule "iridius-demo-extension"]
 	path = iridius-demo-extension
 	url = git@github.com:Zvezdin/iridius-demo-extension.git
+[submodule "iridius-demo-website-failing"]
+	path = iridius-demo-website-failing
+	url = git@github.com:Zvezdin/iridius-demo-website-failing.git
