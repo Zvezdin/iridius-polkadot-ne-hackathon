@@ -3,6 +3,10 @@ Iridius - decentralising Web3 frontends
 
 ## Testing the Demo
 
+```bash
+git clone --recurse-submodules git@github.com:Zvezdin/iridius-polkadot-ne-hackathon.git
+```
+
 ### Setting up Extension
 
 First, setup the Iridius verifier browser extension. [Download the chrome build from here](./extension-build-chrome.zip) (or build from source from [this repo](https://github.com/Zvezdin/iridius-demo-extension)). Unzip, then go into Chrome's context menu -> Extensions -> Turn on Developer mode (top right) -> Load unpacked -> select the unzipped folder. 
