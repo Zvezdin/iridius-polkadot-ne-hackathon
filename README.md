@@ -1,6 +1,17 @@
 # iridius-polkadot-ne-hackathon
 Iridius - decentralising Web3 frontends
 
+While blockchains technologically are decentralized, the ways users interact with them is not. A key centralized weak point are the server-hosted DApp websites, and all mobile apps and browser extensions currently in use by Blockchain users. This requires everyday users to trust the developer of the particular app, which is against blockchain spirit.
+
+Just last week, Convex's frontend was hijacked. A few months ago BadgerDAO lost $130M, and Cream Finance and PancakeSwap were compromised in March 2021. The server of polkadot.js.org/apps, the main way Polkadot users govern and secure the network, is also vulnerable to these attacks, together with the Polkadot.js browser extension. For example, an attacker can push an update that makes users unknowingly delegate to a malicious validator, which would compromise the security of the Polkadot chain. 
+
+Iridius presents a consensus-driven way to certify DApp websites. A community of auditors would vote on which is the "true" version of website.xyz. Then, once the user visits that website, the Iridius browser extension will verify if that website matches the version stored on-chain. If it doesn't, the user knows that the website might have been modified by a malicious actor, so they should not trust it. 
+
+The project's demo consists of a Moonbeam smart contract, Moonbeam The Graph data feeder, a browser extension to verify websites, and two websites - one which gets verified successfully, and another one which has been modified by a bad actor. 
+
+Team Members: Zvezdin, git@zvezd.in
+
+
 ## Testing the Demo
 
 ```bash
